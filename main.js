@@ -19,6 +19,6 @@ linkElement.className = 'link'
 mainElement.append(linkElement)
 linkElement.append('Research Breeder')
 
-newButton.addEventListener('click', function() {
+newButton.addEventListener('click', function () {
     mainElement.remove()
 })
